@@ -7,7 +7,7 @@ import com.realestate.reader.BuilderReader;
 
 public class BuilderReaderTest {
 	public static void main(String[] args) throws Exception {
-		 String filePath = "/home/shatam-25/Downloads/Builders/Newmark Homes Houston.csv";
+		 String filePath = "/home/rancho-25/Downloads/Builders/Newmark Homes Houston.csv";
 		 /*List<Builder> builders = new CsvToBeanBuilder<Builder>(new FileReader(filePath))
 				 .withType(Builder.class)
 				 .build()
