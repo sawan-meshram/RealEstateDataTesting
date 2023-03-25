@@ -9,8 +9,8 @@ public class TestQueryMain {
 		// TODO Auto-generated method stub
 
 		TestQuery test = new TestQueryBuilder()
-				.prepareOriginalBuilderFile("/home/shatam-25/Downloads/Builders/Main Street Homes (copy).csv")
-				.prepareFinalBuilderFile("/home/shatam-25/Downloads/Builders/Main Street Homes.csv")
+				.prepareOriginalBuilderFile("/home/rancho/Downloads/Builders/Main Street Homes (copy).csv")
+				.prepareFinalBuilderFile("/home/rancho/Downloads/Builders/Main Street Homes.csv")
 				.buildTestQuery();
 		
 		test.wrongPropStatus(7, "Now Selling Final Section", "Actively Selling");
