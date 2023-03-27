@@ -34,12 +34,10 @@ public class BuilderCompare {
 		List<String> bugs = new ArrayList<>();
 		for(String val : newStatus) {
 			if(wrongPropStatusSet.contains(val)) {
-//				return false; //not fixed
 				bugs.add(val);
 			}
 		}
 		return bugs;
-//		return true; //fixed
 	};
 	
 
